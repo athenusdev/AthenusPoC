@@ -9,7 +9,7 @@
 #include "config.h"
 
 int fun(int argc, char* argv[]) {
-    NSLog(@"hello from untether!");
+    NSLog(@"hello from autoexecution!");
     if (RUN_NOTIF_TEST) {
         while (1) {
             UILocalNotification *notification = [[UILocalNotification alloc] init];
