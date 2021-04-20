@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A7FD252725F099D900287BBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7FD252525F099D900287BBE /* Assets.xcassets */; };
+		A7FD252825F099D900287BBE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7FD252625F099D900287BBE /* ViewController.m */; };
+		A7FD252C25F099E000287BBE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7FD252925F099E000287BBE /* AppDelegate.m */; };
+		A7FD252D25F099E000287BBE /* autoexecution.m in Sources */ = {isa = PBXBuildFile; fileRef = A7FD252A25F099E000287BBE /* autoexecution.m */; };
+		A7FD253325F09A1F00287BBE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7FD253225F09A1F00287BBE /* main.m */; };
+		A7FD254E25F09B9200287BBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7FD254A25F09B9200287BBE /* LaunchScreen.storyboard */; };
+		A7FD254F25F09B9200287BBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7FD254C25F09B9200287BBE /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75DC306E24B4CB01009152F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75DC304C24B4CB00009152F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75DC305324B4CB00009152F2;
+			remoteInfo = genesys;
+		};
+		75DC307924B4CB01009152F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75DC304C24B4CB00009152F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75DC305324B4CB00009152F2;
+			remoteInfo = genesys;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		75DC305424B4CB00009152F2 /* Athenus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Athenus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75DC306D24B4CB01009152F2 /* Athenus.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Athenus.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75DC307824B4CB01009152F2 /* Athenus.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Athenus.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7FD252525F099D900287BBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Athenus/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		A7FD252625F099D900287BBE /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = Athenus/ViewController.m; sourceTree = SOURCE_ROOT; };
+		A7FD252925F099E000287BBE /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Athenus/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		A7FD252A25F099E000287BBE /* autoexecution.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = autoexecution.m; path = Athenus/autoexecution.m; sourceTree = SOURCE_ROOT; };
+		A7FD252B25F099E000287BBE /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = config.h; path = Athenus/config.h; sourceTree = SOURCE_ROOT; };
+		A7FD252E25F099F300287BBE /* autoexecution.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = autoexecution.h; path = Athenus/autoexecution.h; sourceTree = SOURCE_ROOT; };
+		A7FD252F25F099F300287BBE /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = Athenus/ViewController.h; sourceTree = SOURCE_ROOT; };
+		A7FD253225F09A1F00287BBE /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Athenus/main.m; sourceTree = SOURCE_ROOT; };
+		A7FD254B25F09B9200287BBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Athenus/Base.lproj/LaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
+		A7FD254D25F09B9200287BBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Athenus/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
+		A7FD255025F09C1700287BBE /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Athenus/Info.plist; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75DC305124B4CB00009152F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75DC306A24B4CB01009152F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75DC307524B4CB01009152F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75DC304B24B4CB00009152F2 = {
+			isa = PBXGroup;
+			children = (
+				75DC305624B4CB00009152F2 /* Athenus */,
+				75DC305524B4CB00009152F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		75DC305524B4CB00009152F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75DC305424B4CB00009152F2 /* Athenus.app */,
+				75DC306D24B4CB01009152F2 /* Athenus.xctest */,
+				75DC307824B4CB01009152F2 /* Athenus.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75DC305624B4CB00009152F2 /* Athenus */ = {
+			isa = PBXGroup;
+			children = (
+				A7FD252525F099D900287BBE /* Assets.xcassets */,
+				A7FD252625F099D900287BBE /* ViewController.m */,
+				A7FD252925F099E000287BBE /* AppDelegate.m */,
+				A7FD252A25F099E000287BBE /* autoexecution.m */,
+				A7FD252B25F099E000287BBE /* config.h */,
+				A7FD252E25F099F300287BBE /* autoexecution.h */,
+				A7FD252F25F099F300287BBE /* ViewController.h */,
+				A7FD254A25F09B9200287BBE /* LaunchScreen.storyboard */,
+				A7FD254C25F09B9200287BBE /* Main.storyboard */,
+				A7FD255025F09C1700287BBE /* Info.plist */,
+				75DC305724B4CB00009152F2 /* Supporting Files */,
+			);
+			name = Athenus;
+			path = genesys;
+			sourceTree = "<group>";
+		};
+		75DC305724B4CB00009152F2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7FD253225F09A1F00287BBE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75DC305324B4CB00009152F2 /* Athenus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75DC308124B4CB01009152F2 /* Build configuration list for PBXNativeTarget "Athenus" */;
+			buildPhases = (
+				75DC305024B4CB00009152F2 /* Sources */,
+				75DC305124B4CB00009152F2 /* Frameworks */,
+				75DC305224B4CB00009152F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Athenus;
+			productName = genesys;
+			productReference = 75DC305424B4CB00009152F2 /* Athenus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		75DC306C24B4CB01009152F2 /* AthenusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75DC308424B4CB01009152F2 /* Build configuration list for PBXNativeTarget "AthenusTests" */;
+			buildPhases = (
+				75DC306924B4CB01009152F2 /* Sources */,
+				75DC306A24B4CB01009152F2 /* Frameworks */,
+				75DC306B24B4CB01009152F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75DC306F24B4CB01009152F2 /* PBXTargetDependency */,
+			);
+			name = AthenusTests;
+			productName = genesysTests;
+			productReference = 75DC306D24B4CB01009152F2 /* Athenus.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		75DC307724B4CB01009152F2 /* AthenusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75DC308724B4CB01009152F2 /* Build configuration list for PBXNativeTarget "AthenusUITests" */;
+			buildPhases = (
+				75DC307424B4CB01009152F2 /* Sources */,
+				75DC307524B4CB01009152F2 /* Frameworks */,
+				75DC307624B4CB01009152F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75DC307A24B4CB01009152F2 /* PBXTargetDependency */,
+			);
+			name = AthenusUITests;
+			productName = genesysUITests;
+			productReference = 75DC307824B4CB01009152F2 /* Athenus.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75DC304C24B4CB00009152F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = yeet;
+				TargetAttributes = {
+					75DC305324B4CB00009152F2 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 75UPKA96FS;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					75DC306C24B4CB01009152F2 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 75DC305324B4CB00009152F2;
+					};
+					75DC307724B4CB01009152F2 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 75DC305324B4CB00009152F2;
+					};
+				};
+			};
+			buildConfigurationList = 75DC304F24B4CB00009152F2 /* Build configuration list for PBXProject "Athenus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75DC304B24B4CB00009152F2;
+			productRefGroup = 75DC305524B4CB00009152F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75DC305324B4CB00009152F2 /* Athenus */,
+				75DC306C24B4CB01009152F2 /* AthenusTests */,
+				75DC307724B4CB01009152F2 /* AthenusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75DC305224B4CB00009152F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7FD254F25F09B9200287BBE /* Main.storyboard in Resources */,
+				A7FD254E25F09B9200287BBE /* LaunchScreen.storyboard in Resources */,
+				A7FD252725F099D900287BBE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75DC306B24B4CB01009152F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75DC307624B4CB01009152F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75DC305024B4CB00009152F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7FD252C25F099E000287BBE /* AppDelegate.m in Sources */,
+				A7FD252D25F099E000287BBE /* autoexecution.m in Sources */,
+				A7FD253325F09A1F00287BBE /* main.m in Sources */,
+				A7FD252825F099D900287BBE /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75DC306924B4CB01009152F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75DC307424B4CB01009152F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75DC306F24B4CB01009152F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75DC305324B4CB00009152F2 /* Athenus */;
+			targetProxy = 75DC306E24B4CB01009152F2 /* PBXContainerItemProxy */;
+		};
+		75DC307A24B4CB01009152F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75DC305324B4CB00009152F2 /* Athenus */;
+			targetProxy = 75DC307924B4CB01009152F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A7FD254A25F09B9200287BBE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7FD254B25F09B9200287BBE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A7FD254C25F09B9200287BBE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7FD254D25F09B9200287BBE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		75DC307F24B4CB01009152F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		75DC308024B4CB01009152F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75DC308224B4CB01009152F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "$(SRCROOT)/Athenus/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = w212.genesys420;
+				PRODUCT_NAME = Athenus;
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		75DC308324B4CB01009152F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "$(SRCROOT)/Athenus/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = w212.genesys420;
+				PRODUCT_NAME = Athenus;
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		75DC308524B4CB01009152F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = genesysTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yeet.genesysTests;
+				PRODUCT_NAME = Athenus;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Athenus.app/Athenus";
+			};
+			name = Debug;
+		};
+		75DC308624B4CB01009152F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = genesysTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yeet.genesysTests;
+				PRODUCT_NAME = Athenus;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Athenus.app/Athenus";
+			};
+			name = Release;
+		};
+		75DC308824B4CB01009152F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = genesysUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yeet.genesysUITests;
+				PRODUCT_NAME = Athenus;
+				TEST_TARGET_NAME = genesys;
+			};
+			name = Debug;
+		};
+		75DC308924B4CB01009152F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = genesysUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yeet.genesysUITests;
+				PRODUCT_NAME = Athenus;
+				TEST_TARGET_NAME = genesys;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75DC304F24B4CB00009152F2 /* Build configuration list for PBXProject "Athenus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75DC307F24B4CB01009152F2 /* Debug */,
+				75DC308024B4CB01009152F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75DC308124B4CB01009152F2 /* Build configuration list for PBXNativeTarget "Athenus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75DC308224B4CB01009152F2 /* Debug */,
+				75DC308324B4CB01009152F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75DC308424B4CB01009152F2 /* Build configuration list for PBXNativeTarget "AthenusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75DC308524B4CB01009152F2 /* Debug */,
+				75DC308624B4CB01009152F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75DC308724B4CB01009152F2 /* Build configuration list for PBXNativeTarget "AthenusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75DC308824B4CB01009152F2 /* Debug */,
+				75DC308924B4CB01009152F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75DC304C24B4CB00009152F2 /* Project object */;
+}
