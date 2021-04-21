@@ -24,7 +24,7 @@ As far as testing goes, it seems to work on the following:
 
 # Credits
 
-- spv: finding autoexecution bug + wrote the base of the autoexecution code
+- spv: finding autoexecution vulnerability + wrote the base of the autoexecution code
 
 - Mariner: public relations + creative designer, created icon. 
 
