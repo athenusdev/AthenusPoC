@@ -27,3 +27,5 @@ As far as testing goes, it seems to work on the following:
 - spv: finding autoexecution bug + wrote the base of the autoexecution code
 
 - Mariner: public relations + creative designer, created icon. 
+
+###### NOTE: fuck the manticore discord, dramabinny, and exploit3dguy or whatever the fuck that ratass's name is
