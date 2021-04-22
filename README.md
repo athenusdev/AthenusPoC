@@ -28,4 +28,4 @@ As far as testing goes, it seems to work on the following:
 
 - Mariner: public relations + creative designer, created icon. 
 
-###### NOTE: fuck yaya48, 0x14307, and exploit3dguy or whatever the fuck that ratass's name is
+###### NOTE: fuck 3 assholes in particular, they know who they are
