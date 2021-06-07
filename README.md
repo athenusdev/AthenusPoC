@@ -9,6 +9,8 @@ make jailbreaking great again
 
 with love from w212
 
+please no spyware
+
 
 # Testing
 
@@ -26,6 +28,6 @@ As far as testing goes, it seems to work on the following:
 
 - spv: finding autoexecution vulnerability + wrote the base of the autoexecution code
 
-- Mariner: public relations + creative designer, created icon. 
+- mario_bros_tech: testing, support, etc
 
-###### NOTE: fuck 3 assholes in particular, they know who they are
+###### NOTE: fuck 4 assholes in particular, they know who they are
