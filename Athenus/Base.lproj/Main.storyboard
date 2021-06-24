@@ -28,7 +28,7 @@
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content"> autoexecuting code on iOS 4.0 to latest. Credit goes to: spv - Founder and wrote entirety of base code Mariner - PR, App icon &amp; help with name, testing mario_bros_tech - testing All of my w212 bros - generally being awesome    Make Jailbreaking Great Again!  - with love from w212</string>
+                                        <string key="content"> autoexecuting code on iOS 4.0 to latest. Credit goes to: spv - Founder and wrote entirety of base code mario_bros_tech - testing All of my w212 bros - generally being awesome    Make Jailbreaking Great Again!  - with love from w212</string>
                                         <attributes>
                                             <font key="NSFont" size="14" name="HelveticaNeue-Light"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
