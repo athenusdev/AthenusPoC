@@ -15,7 +15,7 @@
 #define RUN_NOTIF_TEST                  FALSE
 
 #define CODE_EXEC_NOTICE                "achieved code execution"
-#define DONE_NOTICE                     "achieved code execution"
+#define DONE_NOTICE                     "done"
 
 
 #endif /* config_h */
